@@ -1,0 +1,12 @@
+.header {
+  width: 1440px;
+  position: fixed;
+  left: 8%;
+  padding: 5px 20px;
+  display: flex;
+  background: none;
+  margin: 0 auto;
+}
+.buttonGroup {
+  flex-grow: 1;
+}

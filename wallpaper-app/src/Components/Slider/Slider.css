@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+}
+
+.itc-slider__item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 7rem;
+}
+
+.itc-slider__item:nth-child(1) {
+    background-image:"wallpaper-app/public/Images/1.png";
+}
+
+.itc-slider__item:nth-child(2) {
+    background-image:"wallpaper-app/public/Images/2.png";
+}
+
+.itc-slider__item:nth-child(3) {
+    background-image:"wallpaper-app/public/Images/3.png";
+}
+
+.itc-slider__item:nth-child(4) {
+    background-image:"wallpaper-app/public/Images/2.png";
+}
+
+.itc-slider__item:nth-child(5) {
+  background-image:"wallpaper-app/public/Images/1.png";
+}
